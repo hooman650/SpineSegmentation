@@ -62,14 +62,14 @@ Hooman Sedghamiz, Jan 2022.
 ### Additionally, please answer the following questions about your code:
 
 * __What, if anything, did you do to verify that the segmentation masks and images were correctly aligned in the data loader?__
-  * You could easily check the image dimension after plotting the first set of images to verify if they are aligned or not. Normally, I always check the following with the data loader:
+  * Checklist:
      * printing inbetween values to make sure the data is normalized well.
      * the values are in that specifice range or not.
      * the input shape is correct or not.
      * the lables changed to categorical format or not, since I use SoftMax for multi-class segmentation task.
 
 * __What assumptions did you make about the data or model training during this process?__
-  * Very straight forward, this task/challenge is very similar to what we are doing on a daily bases at the lab. This task was not that difficult, and I tried to incorporate a different piece of codes that I wrote for medical data analysis including, data augmentation, normalization, preprocessing and training procedures.
+  * Data augmentation, normalization, preprocessing and training procedures.
 
 ## Model output
 In the following figure, you can see one test spine MR image that we randomly selected from the validation set to visually evaluate the quality of segmentation by the trained model.
