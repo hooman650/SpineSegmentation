@@ -22,9 +22,7 @@ $ source segmentation_env/bin/activate
 (segmentation_env)$ pip install requirements.txt
 ```
 
-4. Cd into `src` directory
-
-5. Run streamlit
+4. Run streamlit (from root of repository)
 
 ```bash
 (segmentation_env)$ streamlit run serve_gui.py
